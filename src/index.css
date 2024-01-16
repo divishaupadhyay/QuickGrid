@@ -1,0 +1,52 @@
+/* CSS for App Component */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #ff8a00, #e52e71);
+  color: #fff;
+}
+
+/* CSS for Game Component */
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+
+/*ScoreBoard Component */
+.score-board {
+  margin-left: 130px;
+  margin-bottom: 440px;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 1px 30px;
+  border-radius: 5px;
+}
+
+.score-board h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.score-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
